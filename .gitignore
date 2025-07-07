@@ -1,0 +1,13 @@
+# Root
+.env
+
+# CDK
+cdk/*.js
+cdk/!jest.config.js
+cdk/*.d.ts
+cdk/node_modules
+cdk/.cdk.staging
+cdk/cdk.out
+
+# rust
+rust/pinger/target
